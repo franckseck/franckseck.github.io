@@ -3,7 +3,7 @@ let myImage = document.querySelector('img');
 myImage.addEventListener('click', function() {
     let mySrc = myImage.getAttribute('src');
     if (mySrc === 'Images/Mozilla-Firefox-icon.png') {
-      myImage.setAttribute('src', 'images/firefox2.png');
+      myImage.setAttribute('src', 'Images/firefox2.png');
     } else {
       myImage.setAttribute('src', 'Images/Mozilla-Firefox-icon.png');
     }
